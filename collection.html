@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra E-commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Colections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Colections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+
+        </div>
+    </div>
+    <div class="product-section">
+        <form action="" class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="products">
+            <div class="product-box">
+                <img src="FashionImages/images (1).jpeg" alt="" height="200px" width="200px">
+                <p>White Shirt</p>
+            </div>
+            
+            <div class="product-box">
+                <img src="FashionImages/images (10).jpeg" alt="" height="200px" width="200px">
+                <p>Black Shirt</p>
+            </div>
+    
+            <div class="product-box">
+                <img src="FashionImages/images (2).jpeg" alt="" height="200px" width="200px">
+                <p>white shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="FashionImages/images (3).jpeg" alt="" height="200px" width="200px">
+                <p>Black Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="FashionImages/images (8).jpg" alt="" height="200px" width="200px">
+                <p>white shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="FashionImages/images (21).jpeg" alt="" height="200px" width="200px">
+                <p>Black Shirt</p>
+            </div>
+            
+            
+        </div>
+    </div>
+
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h2 class="headingText">Nostra</h2>
+            <p>Lorem ipsum dolor sit amet lit. Dolraque ausantium veniam, veritatis rem architecto.
+            </p>
+            <div class="footer-icon-container">
+                <i class="fa-brands fa-instagram" style ="color: #ffff; "></i>
+                <i class="fa-brands fa-twitter" style ="color: #ffff; "></i>
+                <i class="fa-brands fa-facebook" style ="color: #ffff; "></i>
+            </div>
+            <p>@2024 Nostra.com</p>
+        </div>
+    </div>
+</div>
+    <script src="collection.js"></script>
+</body>
+</html>

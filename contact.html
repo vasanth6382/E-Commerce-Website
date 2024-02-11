@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra E-commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-image: url(./FashionImages/images\ \(12\).jpeg);">
+    <nav class="nav-bar">
+        <h1 style="color: antiquewhite;">Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html" style="color: antiquewhite;">Home</a></p>
+            <p class="navbar-link"><a href="collection.html" style="color: antiquewhite;">Colections</a></p>
+            <p class="navbar-link"><a href="contact.html" style="color: antiquewhite;">Contact</a></p>
+
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+
+
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <input type="text" name="name" placeholder="Enter your name here..." required>
+        <br>
+        <input type="email" name="email" placeholder="Enter your Email here..." required>
+        <br>
+        <textarea name="Message" id="" cols="30" rows="5" placeholder="Type your message here..." required></textarea>
+        <button onclick="submit()" type="submit">Submit</button>
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>Lorem ipsum dolor sit amet lit. Dolraque ausantium veniam, veritatis rem architecto.
+                </p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffff; "></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffff; "></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffff; "></i>
+                </div>
+                <p>@2024 Nostra.com</p>
+            </div>
+        </div>
+    </div>
+<script>
+    
+
+function submit()
+{
+    alert("Submitted Successfully")
+}
+</script>
+</body>
+
+
+</html>
